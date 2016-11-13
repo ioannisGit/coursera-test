@@ -63,6 +63,8 @@ p {
   padding-left: 10px;
   padding-left: 10px;
   padding-bottom: 10px;
+  height: 1000px;
+  overflow: auto;
 }
 
 /* Simple Responsive Framework. */
