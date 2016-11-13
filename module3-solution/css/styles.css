@@ -1,0 +1,90 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #fff;
+  font-family: 'Coming Soon', cursive;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Food, lighting-color:  */
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #000;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #000;
+}
+
+#nav-list a {
+  margin-top: 10px;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#nav-list a:hover {
+  background: #E3E3E3;
+}
+#nav-list a span {
+  font-size: 1.8em;
+
+}
+
+h1 {
+  margin-bottom: 15px;
+  font-size: 1.75em;
+  color: #000;
+  font-weight: bold;
+}
+p {
+  position: relative;
+  border: 1px solid black;
+  background-color: grey;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  color: black;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+#chicken, #beef, #sushi {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+}
+
+span {
+  clear: both;
+}
