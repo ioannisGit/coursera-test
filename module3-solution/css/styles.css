@@ -23,15 +23,12 @@ body {
   margin-bottom: 0;
   line-height: .75;
 }
-
-.navbar-default .navbar-toggle .icon-bar{
+.navbar-default .navbar-toggle .icon-bar {
   background-color: #000;
 }
-
-.navbar-default .navbar-toggle {
-    border-color: #000;
+.navbar-default .navbar-toggle{
+  border-color: #000;
 }
-
 #nav-list a {
   margin-top: 10px;
   color: #000;
@@ -48,9 +45,7 @@ body {
 }
 #nav-list a span {
   font-size: 1.8em;
-
 }
-
 h1 {
   margin-bottom: 15px;
   font-size: 1.75em;
@@ -61,11 +56,11 @@ p {
   position: relative;
   border: 1px solid black;
   background-color: grey;
-  margin-right: 5px;
-  margin-left: 5px;
-  margin-bottom: 20px;
+  margin-right: 0px;
+  margin-left: 20px;
   color: black;
   padding-top: 30px;
+  padding-left: 10px;
   padding-left: 10px;
   padding-bottom: 10px;
 }
@@ -84,7 +79,6 @@ p {
   font-weight: bold;
   color: #000;
 }
-
 span {
   clear: both;
 }
